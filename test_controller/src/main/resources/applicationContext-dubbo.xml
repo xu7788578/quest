@@ -6,7 +6,7 @@
         http://code.alibabatech.com/schema/dubbo
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd
         ">
-	<dubbo:application name="seafood_controller" />
+	<dubbo:application name="test_controller" />
 	<dubbo:provider timeout="10000" />
 	<!-- 使用multicast广播注册中心暴露发现服务地址 -->
 	<dubbo:registry protocol="zookeeper" address="${zookeeper.address}" />
